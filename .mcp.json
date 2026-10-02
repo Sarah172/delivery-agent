@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "delivery": {
+      "command": ".venv\\Scripts\\python.exe",
+      "args": ["-m", "mcp_server.server"],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}",
+        "GITHUB_REPO": "${GITHUB_REPO}"
+      }
+    }
+  }
+}
